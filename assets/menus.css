@@ -4,6 +4,7 @@
     height: auto;
     text-align: center;
     background-image: url("images/menus/gambar_2.png");
+    padding: 30px 5%;
     /* background-size: 200px ; */
 }
 
@@ -20,7 +21,6 @@
 .menu-content {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 100px;
 }
 
 .menu-content .menu-card {
@@ -42,32 +42,32 @@
 }
 
 .img-menu1 img {
-    width: 150px;
+    max-width: 150px;
     padding-bottom: 30px;
     padding-top: 25px;
 }
 
 .img-menu2 img {
-    width: 190px;
+    max-width: 150px;
 }
 
 .img-menu3 img {
-    width: 50px;
+    max-width: 50px;
     padding-top: 20px;
 }
 
 .img-menu4 img {
-    width: 150px;
+    max-width: 150px;
     padding-top: 20px;
 }
 
 .img-menu5 img {
-    width: 110px;
+    max-width: 110px;
     padding-top: 20px;
 }
 
 .img-menu6 img {
-    width: 150px;
+    max-width: 150px;
     padding-bottom: 0px;
     padding-top: 25px;
 }
@@ -131,11 +131,9 @@
 @media(max-width: 670px){
     .menu-content{
         flex-direction: column;
-        
     }
 
     .menu-content .menu-card{
-        margin: 10px auto;
         width: 100%;
     }
 }
