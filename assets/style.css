@@ -105,6 +105,16 @@ p {
     color: #262626;
 }
 
+.p-absolute {
+    position: absolute;
+}
+
+.p-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 
 /* 
 ===================================
@@ -149,7 +159,7 @@ TULIS CSS KALIAN DI BAWAH BARIS INI
     align-items: center;
     z-index: 99;
     width: 100vw;
-    position: absolute;
+    /* position: absolute; */
     color: #FFFFFF;
     user-select: none;
     transition-duration: .5s;
@@ -243,7 +253,7 @@ TULIS CSS KALIAN DI BAWAH BARIS INI
     border-radius: 5px;
     font-size: 1rem;
     animation: fadeInDown .5s forwards;
-    animation-delay: 1.5s;
+    animation-delay: 2.5s;
     opacity: 0;
 }
 
@@ -251,14 +261,14 @@ TULIS CSS KALIAN DI BAWAH BARIS INI
     font-size: 5rem;
     margin: 20px 0;
     animation: fadeInDown .5s forwards;
-    animation-delay: 0s;
+    animation-delay: 1s;
     opacity: 0;
 }
 
 #hero > .content > .hero-text {
     font-size: 1.5rem;
     animation: fadeInDown .5s forwards;
-    animation-delay: .5s;
+    animation-delay: 1.5s;
     opacity: 0;
 }
 
@@ -266,7 +276,7 @@ TULIS CSS KALIAN DI BAWAH BARIS INI
     color: #b9b9b9;
     font-size: .8rem;
     animation: fadeInDown .5s forwards;
-    animation-delay: 1s;
+    animation-delay: 2s;
     opacity: 0;
 }
 

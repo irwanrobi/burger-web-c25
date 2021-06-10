@@ -12,7 +12,9 @@ window.onscroll = function() {
 
     if ((window.scrollY > scrollTrigger || window.pageYOffset > scrollTrigger) && mediaDesktopQuery.matches) {
         headerElement.style.backgroundColor = "#FFFFFF";
-        headerElement.style.position = "fixed";
+        // headerElement.style.position = "sticky";
+        headerElement.classList.add('p-sticky');
+        headerElement.classList.remove('p-absolute');
         headerElement.style.padding = "0px 5%";
         headerElement.style.color = "#262626";
 
@@ -20,7 +22,9 @@ window.onscroll = function() {
 
     } else if ((window.scrollY > scrollTrigger || window.pageYOffset > scrollTrigger) && mediaTabletQuery.matches) {
         headerElement.style.backgroundColor = "#FFFFFF";
-        headerElement.style.position = "fixed";
+        // headerElement.style.position = "sticky";
+        headerElement.classList.add('p-sticky');
+        headerElement.classList.remove('p-absolute');
         headerElement.style.padding = "0px 5%";
         headerElement.style.color = "#262626";
 
@@ -31,7 +35,9 @@ window.onscroll = function() {
 
     } else if ((window.scrollY <= scrollTrigger || window.pageYOffset <= scrollTrigger) && mediaTabletQuery.matches) {
         headerElement.style.backgroundColor = "transparent";
-        headerElement.style.position = "absolute";
+        // headerElement.style.position = "absolute";
+        headerElement.classList.add('p-absolute');
+        headerElement.classList.remove('p-sticky');
         headerElement.style.padding = "30px 5%";
         headerElement.style.color = "#FFFFFF";
 
@@ -39,7 +45,9 @@ window.onscroll = function() {
         navbarMenuElement.style.top = "130px";
     } else {
         headerElement.style.backgroundColor = "transparent";
-        headerElement.style.position = "absolute";
+        // headerElement.style.position = "absolute";
+        headerElement.classList.add('p-absolute');
+        headerElement.classList.remove('p-sticky');
         headerElement.style.padding = "30px 5%";
         headerElement.style.color = "#FFFFFF";
 
