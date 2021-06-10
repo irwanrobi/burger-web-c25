@@ -1,0 +1,91 @@
+/* UNTUK BLOG */
+
+.blog {
+    height:500px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.heading-blog {
+    padding-top:60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.heading-blog h1 {
+    font-size: 45px;
+}
+
+.blog-content {
+    float: left;
+    width: 25%;
+}
+
+.image-blog-content img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px; 
+}
+
+.teks-blog h3 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.teks-blog a {
+    width:80%;
+    color: #E33D00;
+    display: inline-block;
+    padding-top: 5px;
+    margin-bottom: 120px;
+}
+
+
+/* 
+========================
+Responsive untuk Tablet
+======================= */
+
+@media all and (max-width:1000px) {
+    .blog-content {
+        width : 50%;
+        margin-bottom: 10px;
+    }
+
+    .heading-blog h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .image-blog-content img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .teks-blog a {
+       margin-bottom: 70px;
+    }
+}
+
+/* 
+========================
+Responsive untuk Tablet
+======================= */
+
+@media all and (max-width: 670px) {
+    .blog-content {
+        width : 100%;
+    }
+
+    .heading-blog h1 {
+        font-size: 24px;
+    }
+
+    .heading-blog h3 {
+        font-size: 10px;
+    }
+}

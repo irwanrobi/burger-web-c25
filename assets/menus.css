@@ -1,0 +1,141 @@
+/* ========================== CSS MENUS ==========================*/
+.menus {
+    background-color: #eed4d4;
+    height: auto;
+    text-align: center;
+    background-image: url("images/menus/gambar_2.png");
+    /* background-size: 200px ; */
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 60px;
+    color: #262626;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 40px 0;
+    letter-spacing: 7px;
+}
+
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.menu-content .menu-card {
+    flex: auto;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    border: #f2f2f2 3px solid;
+    opacity: 0.8;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-right: 30px; 
+    padding-bottom: 30px;
+}
+
+.menu-card:hover {
+    opacity: 1;
+    border: #FF0000 3px solid;
+}
+
+.img-menu1 img {
+    width: 150px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.img-menu2 img {
+    width: 190px;
+}
+
+.img-menu3 img {
+    width: 50px;
+    padding-top: 20px;
+}
+
+.img-menu4 img {
+    width: 150px;
+    padding-top: 20px;
+}
+
+.img-menu5 img {
+    width: 110px;
+    padding-top: 20px;
+}
+
+.img-menu6 img {
+    width: 150px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+}
+
+.menu-card h3 {
+    color: #d11818;
+    font-weight: 725;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.menu-card p {
+    color: #312929;
+    font-weight:500;
+    font-size: 15px;
+}
+
+.menu-card span{
+    color: #b96900;
+    font-weight: 850;
+    font-size: 30px;
+}
+
+#cta-order {
+    padding-bottom: 40px;
+}
+
+.cta-title h1{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #6b8d0d;
+}
+
+.btn-costum{
+    margin-top: 25px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+/* ========================== MEDIA QUERIES MENUS ==========================*/
+/* tablet */
+@media(max-width: 1000px){
+
+    .menu-content{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .menu-content .menu-card{
+        width: 50%;
+    }
+}
+
+/* handphone */
+@media(max-width: 670px){
+    .menu-content{
+        flex-direction: column;
+        
+    }
+
+    .menu-content .menu-card{
+        margin: 10px auto;
+        width: 100%;
+    }
+}
